@@ -2,16 +2,20 @@ export default {
     // These are app level configs.
     lang: 'en-US',
     title: 'WDM',
-    description: 'Website of wangdm',
+    description: 'website of wangdm',
+    head: [
+        ['meta', { name: 'keywords', content: 'wangdm,Rust,Golang,FFmpeg,WebRTC,Linux' }]
+    ],
 
-    appearance: 'dark',
+    appearance: 'true',
     cleanUrls: 'without-subfolders',
 
     srcDir: './content',
     // outDir: './public',
 
     themeConfig: {
-        logo: '/logo.jpg',
+        logo: '/logo.png',
+        siteTitle: false,
         nav: [
             { text: 'Blog', link: 'https://blog.wangdm.cn' },
             { text: 'Study', link: 'https://study.wangdm.cn' },
@@ -36,8 +40,8 @@ export default {
         ],
 
         footer: {
-            message: '<a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备18138543号</a>',
-            copyright: 'Copyright © 2020-2023 Deming Wang'
+            message: 'Powered by <a href="https://vitepress.vuejs.org/" target="_blank">VitePress</a>',
+            copyright: 'Copyright © 2020-2023 <a href="https://wangdm.cn/" target="_blank">Deming Wang</a>'
         }
     }
 }
