@@ -5,7 +5,7 @@ layout: home
 hero:
   name: WDM
   text: Learning, Sharing
-  tagline: C, C++, Rust, Golang, Linux, Media, WebRTC
+  tagline: C, C++, Rust, Golang, Linux, FFmpeg, WebRTC
   actions:
     - theme: brand
       text: Blog
