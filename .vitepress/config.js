@@ -4,7 +4,16 @@ export default {
     title: 'WDM',
     description: 'website of wangdm',
     head: [
-        ['meta', { name: 'keywords', content: 'wangdm,Rust,Golang,FFmpeg,WebRTC,Linux' }]
+        ['meta', { name: 'keywords', content: 'wangdm,Rust,Golang,FFmpeg,WebRTC,Linux' }],
+        ['script', {}, `
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?b435d0a9a81773cad2ab3e9a430c98a8";
+            var s = document.getElementsByTagName("script")[0]; 
+            s.parentNode.insertBefore(hm, s);
+        })();
+     `]
     ],
 
     appearance: 'true',
