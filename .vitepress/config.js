@@ -27,7 +27,7 @@ export default {
         siteTitle: false,
         nav: [
             { text: 'Blog', link: 'https://blog.wangdm.cn' },
-            { text: 'Study', link: 'https://study.wangdm.cn' },
+            { text: 'Article', link: 'https://article.wangdm.cn' },
             {
                 text: 'Project',
                 items: [
@@ -50,7 +50,7 @@ export default {
 
         footer: {
             message: 'Powered by <a href="https://vitepress.vuejs.org/" target="_blank">VitePress</a>',
-            copyright: 'Copyright © 2020-2023 <a href="https://wangdm.cn/" target="_blank">Deming Wang</a>'
+            copyright: 'Copyright © 2020-2024 <a href="https://wangdm.cn/" target="_blank">Deming Wang</a>'
         }
     }
 }
