@@ -11,8 +11,8 @@ hero:
       text: Blog
       link: https://blog.wangdm.cn
     - theme: brand
-      text: Study
-      link: https://study.wangdm.cn
+      text: Article
+      link: https://article.wangdm.cn
     - theme: alt
       text: View on GitHub
       link: https://github.com/wangdm
