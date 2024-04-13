@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/wangdm/wangdm.github.io#readme",
   "devDependencies": {
-    "vitepress": "^1.0.1",
+    "vitepress": "^1.1.0",
     "vue": "^3.2.45"
   }
 }
